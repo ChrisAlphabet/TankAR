@@ -1,0 +1,12 @@
+theme: jekyll-theme-minimal
+favicon: my_favicon.ico
+nav:
+    - Tutorial 1 - Hello World!: tutorial_1_hello_world.md  
+    - Tutorial 2 - Serial Monitor: tutorial_2_serial.md 
+    - Tutorial 3 - Digital IO: tutorial_3_digital.md 
+    - Tutorial 4 - Analog IO: tutorial_4_analog.md 
+    - Tutorial 5 - Control Structures: tutorial_5_control_structures.md
+    - Tutorial 6 - Line Following Robot: tutorial_6_line_following_robot.md
+    - Popular Demand 1 - Functions: popular_demand_1_functions.md  
+    - Popular Demand 2 - Git: popular_demand_2_git.md 
+    - Popular Demand 3 - Debounce: popular_demand_3_debounce.md     
