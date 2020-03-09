@@ -1,1 +1,4 @@
 theme: jekyll-theme-minimal
+favicon: icon.svg
+nav:
+    - Project Log: project_log.md  
