@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
-favicon: favicon.ico
+favicon: 'favicon.ico'
 nav:
-    - Project Log: project_log.md  
+    - Project Log: 'project_log.md'  
