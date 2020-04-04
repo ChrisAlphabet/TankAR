@@ -21,13 +21,13 @@ void setup() {
 void loop() {
   if(Serial.available() > 0) {
     data = Serial.read();
-    if(data == 'a') {
+    if(data == 'a' && az_angle < 165) {
       az_angle+=10;
-    } else if (data == 'd') {
+    } else if (data == 'd' && az_angle > 15) {
       az_angle-=10;
-    } else if (data == 'w') {
+    } else if (data == 's' && el_angle < 85) {
       el_angle+=10;
-    } else if (data == 's') {
+    } else if (data == 'w'  && el_angle > 15) {
       el_angle-=10;
     }
   }
@@ -37,5 +37,5 @@ void loop() {
   Serial.print(az_angle);
   Serial.print(" El: ");
   Serial.println(el_angle);
-  delay(500);
+  delay(250);
 }
